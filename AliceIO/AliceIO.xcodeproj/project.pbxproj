@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E863901F91706200925B7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8638F1F91706200925B7C /* AppDelegate.swift */; };
+		00E863921F91706200925B7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E863911F91706200925B7C /* ViewController.swift */; };
+		00E863951F91706200925B7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E863931F91706200925B7C /* Main.storyboard */; };
+		00E863981F91706200925B7C /* AliceIO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00E863961F91706200925B7C /* AliceIO.xcdatamodeld */; };
+		00E8639A1F91706200925B7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00E863991F91706200925B7C /* Assets.xcassets */; };
+		00E8639D1F91706200925B7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E8639B1F91706200925B7C /* LaunchScreen.storyboard */; };
+		00E863A81F91706200925B7C /* AliceIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E863A71F91706200925B7C /* AliceIOTests.swift */; };
+		00E863B31F91706200925B7C /* AliceIOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E863B21F91706200925B7C /* AliceIOUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E863A41F91706200925B7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00E863841F91705F00925B7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00E8638B1F91705F00925B7C;
+			remoteInfo = AliceIO;
+		};
+		00E863AF1F91706200925B7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00E863841F91705F00925B7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00E8638B1F91705F00925B7C;
+			remoteInfo = AliceIO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E8638C1F91706200925B7C /* AliceIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliceIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E8638F1F91706200925B7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00E863911F91706200925B7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00E863941F91706200925B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00E863971F91706200925B7C /* AliceIO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AliceIO.xcdatamodel; sourceTree = "<group>"; };
+		00E863991F91706200925B7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00E8639C1F91706200925B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00E8639E1F91706200925B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E863A31F91706200925B7C /* AliceIOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliceIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E863A71F91706200925B7C /* AliceIOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliceIOTests.swift; sourceTree = "<group>"; };
+		00E863A91F91706200925B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E863AE1F91706200925B7C /* AliceIOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliceIOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E863B21F91706200925B7C /* AliceIOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliceIOUITests.swift; sourceTree = "<group>"; };
+		00E863B41F91706200925B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E863891F91705F00925B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00E863A01F91706200925B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00E863AB1F91706200925B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E863831F91705F00925B7C = {
+			isa = PBXGroup;
+			children = (
+				00E8638E1F91706200925B7C /* AliceIO */,
+				00E863A61F91706200925B7C /* AliceIOTests */,
+				00E863B11F91706200925B7C /* AliceIOUITests */,
+				00E8638D1F91706200925B7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00E8638D1F91706200925B7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00E8638C1F91706200925B7C /* AliceIO.app */,
+				00E863A31F91706200925B7C /* AliceIOTests.xctest */,
+				00E863AE1F91706200925B7C /* AliceIOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00E8638E1F91706200925B7C /* AliceIO */ = {
+			isa = PBXGroup;
+			children = (
+				00E8638F1F91706200925B7C /* AppDelegate.swift */,
+				00E863911F91706200925B7C /* ViewController.swift */,
+				00E863931F91706200925B7C /* Main.storyboard */,
+				00E863991F91706200925B7C /* Assets.xcassets */,
+				00E8639B1F91706200925B7C /* LaunchScreen.storyboard */,
+				00E8639E1F91706200925B7C /* Info.plist */,
+				00E863961F91706200925B7C /* AliceIO.xcdatamodeld */,
+			);
+			path = AliceIO;
+			sourceTree = "<group>";
+		};
+		00E863A61F91706200925B7C /* AliceIOTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E863A71F91706200925B7C /* AliceIOTests.swift */,
+				00E863A91F91706200925B7C /* Info.plist */,
+			);
+			path = AliceIOTests;
+			sourceTree = "<group>";
+		};
+		00E863B11F91706200925B7C /* AliceIOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00E863B21F91706200925B7C /* AliceIOUITests.swift */,
+				00E863B41F91706200925B7C /* Info.plist */,
+			);
+			path = AliceIOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E8638B1F91705F00925B7C /* AliceIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E863B71F91706200925B7C /* Build configuration list for PBXNativeTarget "AliceIO" */;
+			buildPhases = (
+				00E863881F91705F00925B7C /* Sources */,
+				00E863891F91705F00925B7C /* Frameworks */,
+				00E8638A1F91705F00925B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliceIO;
+			productName = AliceIO;
+			productReference = 00E8638C1F91706200925B7C /* AliceIO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00E863A21F91706200925B7C /* AliceIOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E863BA1F91706200925B7C /* Build configuration list for PBXNativeTarget "AliceIOTests" */;
+			buildPhases = (
+				00E8639F1F91706200925B7C /* Sources */,
+				00E863A01F91706200925B7C /* Frameworks */,
+				00E863A11F91706200925B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E863A51F91706200925B7C /* PBXTargetDependency */,
+			);
+			name = AliceIOTests;
+			productName = AliceIOTests;
+			productReference = 00E863A31F91706200925B7C /* AliceIOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00E863AD1F91706200925B7C /* AliceIOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E863BD1F91706200925B7C /* Build configuration list for PBXNativeTarget "AliceIOUITests" */;
+			buildPhases = (
+				00E863AA1F91706200925B7C /* Sources */,
+				00E863AB1F91706200925B7C /* Frameworks */,
+				00E863AC1F91706200925B7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E863B01F91706200925B7C /* PBXTargetDependency */,
+			);
+			name = AliceIOUITests;
+			productName = AliceIOUITests;
+			productReference = 00E863AE1F91706200925B7C /* AliceIOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00E863841F91705F00925B7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alice King";
+				TargetAttributes = {
+					00E8638B1F91705F00925B7C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					00E863A21F91706200925B7C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 00E8638B1F91705F00925B7C;
+					};
+					00E863AD1F91706200925B7C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 00E8638B1F91705F00925B7C;
+					};
+				};
+			};
+			buildConfigurationList = 00E863871F91705F00925B7C /* Build configuration list for PBXProject "AliceIO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00E863831F91705F00925B7C;
+			productRefGroup = 00E8638D1F91706200925B7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00E8638B1F91705F00925B7C /* AliceIO */,
+				00E863A21F91706200925B7C /* AliceIOTests */,
+				00E863AD1F91706200925B7C /* AliceIOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E8638A1F91705F00925B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E8639D1F91706200925B7C /* LaunchScreen.storyboard in Resources */,
+				00E8639A1F91706200925B7C /* Assets.xcassets in Resources */,
+				00E863951F91706200925B7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00E863A11F91706200925B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00E863AC1F91706200925B7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E863881F91705F00925B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E863981F91706200925B7C /* AliceIO.xcdatamodeld in Sources */,
+				00E863921F91706200925B7C /* ViewController.swift in Sources */,
+				00E863901F91706200925B7C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00E8639F1F91706200925B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E863A81F91706200925B7C /* AliceIOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00E863AA1F91706200925B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E863B31F91706200925B7C /* AliceIOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E863A51F91706200925B7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00E8638B1F91705F00925B7C /* AliceIO */;
+			targetProxy = 00E863A41F91706200925B7C /* PBXContainerItemProxy */;
+		};
+		00E863B01F91706200925B7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00E8638B1F91705F00925B7C /* AliceIO */;
+			targetProxy = 00E863AF1F91706200925B7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00E863931F91706200925B7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00E863941F91706200925B7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00E8639B1F91706200925B7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00E8639C1F91706200925B7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E863B51F91706200925B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00E863B61F91706200925B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00E863B81F91706200925B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AliceIO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.AliceIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		00E863B91F91706200925B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AliceIO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.AliceIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		00E863BB1F91706200925B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AliceIOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.AliceIOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AliceIO.app/AliceIO";
+			};
+			name = Debug;
+		};
+		00E863BC1F91706200925B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AliceIOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.AliceIOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AliceIO.app/AliceIO";
+			};
+			name = Release;
+		};
+		00E863BE1F91706200925B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AliceIOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.AliceIOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AliceIO;
+			};
+			name = Debug;
+		};
+		00E863BF1F91706200925B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AliceIOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.AliceIOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AliceIO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E863871F91705F00925B7C /* Build configuration list for PBXProject "AliceIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E863B51F91706200925B7C /* Debug */,
+				00E863B61F91706200925B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00E863B71F91706200925B7C /* Build configuration list for PBXNativeTarget "AliceIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E863B81F91706200925B7C /* Debug */,
+				00E863B91F91706200925B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00E863BA1F91706200925B7C /* Build configuration list for PBXNativeTarget "AliceIOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E863BB1F91706200925B7C /* Debug */,
+				00E863BC1F91706200925B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00E863BD1F91706200925B7C /* Build configuration list for PBXNativeTarget "AliceIOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E863BE1F91706200925B7C /* Debug */,
+				00E863BF1F91706200925B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00E863961F91706200925B7C /* AliceIO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00E863971F91706200925B7C /* AliceIO.xcdatamodel */,
+			);
+			currentVersion = 00E863971F91706200925B7C /* AliceIO.xcdatamodel */;
+			path = AliceIO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00E863841F91705F00925B7C /* Project object */;
+}
